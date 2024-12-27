@@ -48,7 +48,7 @@ if response.status_code == 200:
 
             print(content_div)
 
-            保存为txt文件
+           
             file_name = f"{title}.txt"  # 从标题生成文件名
             with open(file_name, 'w', encoding='utf-8') as file:
                file.write(content)
